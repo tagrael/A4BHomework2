@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/sort_name"
+        android:title="Sort by name" >
+        <!-- "file" submenu -->
+        <menu>
+            <item android:id="@+id/name_asc"
+                android:title="Sort ascending" />
+            <item android:id="@+id/name_desc"
+                android:title="Sort descending" />
+
+        </menu>
+    </item>
+    <item android:id="@+id/filter_mood"
+        android:title="Filter by mood" >
+        <!-- "file" submenu -->
+        <menu>
+            <item android:id="@+id/mood_happy"
+                android:title="Show happy" />
+            <item android:id="@+id/mood_sad"
+                android:title="Show sad" />
+            <item android:id="@+id/mood_all"
+                android:title="Show all" />
+        </menu>
+    </item>
+</menu>
